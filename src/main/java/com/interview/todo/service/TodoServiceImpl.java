@@ -58,8 +58,7 @@ public class TodoServiceImpl implements TodoService {
 	@Override
 	public List<Todo> getAllTodos() {
 
-		Sort sortByCreatedAtDesc = new Sort(Sort.Direction.DESC, "createdAt");
-		return this.todoRepo.findAll(sortByCreatedAtDesc);
+		return (List<Todo>) this.todoRepo.findAll();
 	}
 
 	/**

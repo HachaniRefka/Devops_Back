@@ -48,7 +48,7 @@ public class SwaggerConfiguration implements WebMvcConfigurer {
 				"Restful API documentation", // Description
 				"1.0", // Version
 				"TOS", // Terms of Service
-				new Contact("Chakroun Mohamed ali", "chakrounn01@gmail.com", ""), // Contact
+				new Contact("Chakroun mohamed ali", "chakrounn01@gmail.com", "https://medium.com/@ahmedhamedTN"), // Contact
 				"Aucune license", // License
 				"License", Collections.emptyList());
 	}
